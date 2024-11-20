@@ -7,6 +7,6 @@ import react from "@vitejs/plugin-react";
 export default defineConfig(({ mode }) => {
   return {
     plugins: [react()],
-    base: mode === "production" ? "/Memory-Card-Game/" : "/", // Configuración condicional del base
+    base: mode === "production" ? "/Memory-Card-Game" : "/", // Configuración condicional del base
   };
 });
