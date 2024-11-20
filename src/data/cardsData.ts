@@ -22,7 +22,7 @@ export const cardsData: CardType[] = [
     matched: false,
   },
   // Añade más tarjetas hasta alcanzar al menos 16 únicas
-  { id: "9", name: "Notebook", image: "/images/notebook.png", matched: false },
+  { id: "9", name: "Notebook", image: "images/notebook.png", matched: false },
   { id: "10", name: "Chair", image: "/images/chair.png", matched: false },
   { id: "11", name: "Phone", image: "/images/phone.png", matched: false },
   { id: "12", name: "Tablet", image: "/images/tablet.png", matched: false },
@@ -35,5 +35,4 @@ export const cardsData: CardType[] = [
     image: "/images/waterdispenser.png",
     matched: false,
   },
-  // Continúa añadiendo según sea necesario
 ];
